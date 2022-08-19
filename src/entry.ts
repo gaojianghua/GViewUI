@@ -9,22 +9,22 @@
  * Copyright (c) 2022 by 高江华 g598670138@163.com, All Rights Reserved.
  */
 
-import { App } from "vue";
-import MyButton from "./button";
-import SFCButton from "./SFCButton.vue";
-import JSXButton from "./JSXButton";
+import { App } from 'vue'
+import MyButton from './button'
+import SFCButton from './SFCButton.vue'
+import JSXButton from './JSXButton'
 
 // 导出单独组件
-export { MyButton, SFCButton, JSXButton };
+export { MyButton, SFCButton, JSXButton }
 
 // 编写一个插件，实现一个install方法
 
-console.log("MyButton", MyButton.name);
+console.log('MyButton', MyButton.name)
 
 export default {
-  install(app: App): void {
-    app.component(MyButton.name, MyButton);
-    app.component(SFCButton.name, SFCButton);
-    app.component(JSXButton.name, JSXButton);
-  },
-};    
+    install(app: App): void {
+        app.component(MyButton.name, MyButton)
+        app.component(SFCButton.name, SFCButton)
+        app.component(JSXButton.name, JSXButton)
+    }
+}

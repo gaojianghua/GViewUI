@@ -2,8 +2,8 @@
  * @Author       : 高江华 g598670138@163.com
  * @Date         : 2022-08-19 00:08:38
  * @LastEditors  : 高江华 g598670138@163.com
- * @LastEditTime : 2022-08-19 00:30:29
- * @FilePath     : \GViewUI\src\button\index.tsx
+ * @LastEditTime : 2022-09-10 03:17:36
+ * @FilePath     : \GViewUI\src\button\Button.tsx
  * @Description  : 
  * 
  * Copyright (c) 2022 by 高江华 g598670138@163.com, All Rights Reserved. 

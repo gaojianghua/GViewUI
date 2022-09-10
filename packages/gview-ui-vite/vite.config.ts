@@ -2,7 +2,7 @@
  * @Author       : 高江华 g598670138@163.com
  * @Date         : 2022-08-18 23:40:31
  * @LastEditors  : 高江华 g598670138@163.com
- * @LastEditTime : 2022-08-19 05:43:59
+ * @LastEditTime : 2022-09-10 03:15:50
  * @FilePath     : \GViewUI\vite.config.ts
  * @Description  : 
  * 
@@ -12,7 +12,7 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import { presetUno, presetAttributify, presetIcons } from "unocss";
+// import { presetUno, presetAttributify, presetIcons } from "unocss";
 // import Unocss from "unocss/vite";
 import Unocss from "./config/unocss";
 
